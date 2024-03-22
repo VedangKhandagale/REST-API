@@ -1,0 +1,10 @@
+GET http://localhost:3000/students
+
+###
+
+PATCH http://localhost:3000/students/65fdc8d64e0cc708264f41d6
+Content-Type: application/json
+
+{
+    "age":20
+}
